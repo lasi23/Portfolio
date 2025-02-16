@@ -1,0 +1,96 @@
+body {
+    background: linear-gradient(to bottom right, blue, purple, pink);
+    font-family: 'Roboto slab';
+    font-size: 30px;
+}
+
+.titre {
+  text-align: center;
+  font-size: 50px;
+  font-family: cursive;
+  padding-top: 150px;
+  border: groove 15px burlywood;
+  padding: 20px;
+  margin: 80px 300px 0px 300px;
+}
+
+.profil {
+    margin-top: 80px;
+    width: 250px;
+    height: 250px;
+    border-radius: 125px 125px 125px;
+    animation: 7s ease-in 1s reverse both running slidein;
+}
+
+@keyframes slidein {
+    from{
+        opacity: 1;
+        transform: translatex(500px);
+    }
+    to{
+        opacity: 0;
+        transform: translateX(1000px);
+    }
+    }
+
+
+h2 {
+    font-size: 40px;
+    padding-left: 100px;
+    padding-top: 180px;
+    padding-bottom: 60px; 
+}
+
+.presentation {
+    padding-left: 130px;
+    text-align: center;
+}
+
+.img1 {
+    width: 300px;
+    height: 300px;
+    padding-right: 80px;
+    padding-bottom: 80px;
+    float: right;
+    border-radius: 250px 250px 250px 250px;
+}
+
+a {
+    border: solid 5px rgb(13, 197, 13);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 30px;
+    color: aliceblue;
+    background-color: black;
+}
+
+.button {
+    display: flex;
+    position: relative;
+    flex-direction: row-reverse;
+}
+
+.container {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    border: 5px solid #000000;
+    margin: 5px 5px;
+    margin-left: 450px;
+    margin-right: 450px;
+    background-color: rgb(165, 12, 70);
+}
+
+.contact, .mail {
+    text-align: center;
+    border: 5px solid black;
+    margin: 5px;
+    background-color: rgb(153, 66, 25);
+}
+
+.mail {
+    width: 95%;
+}
+
+
