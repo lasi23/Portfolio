@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(130, 238, 233);
+    background: linear-gradient(to bottom right, blue, purple, pink);
     font-family: 'Roboto slab';
     font-size: 30px;
 }
@@ -9,15 +9,34 @@ body {
   font-size: 50px;
   font-family: cursive;
   padding-top: 150px;
-  border: groove 30px rgb(42, 218, 194);
+  border: groove 30px burlywood;
   padding: 20px;
   margin: 80px 300px 0px 300px;
+}
+
+.profil {
+    margin-top: 100px;
+    width: 250px;
+    height: 250px;
+    border-radius: 150px 150px 150px 150px;
+    animation: 5s ease-in 1s reverse both running slidein;
+}
+
+@keyframes slidein {
+    from {
+        opacity: 1;
+        transform: translatex(550px);
+    }
+    to {
+        opacity: 0;
+        transform: translatex(1000px);
+    }
 }
 
 h2 {
     font-size: 40px;
     padding-left: 100px;
-    padding-top: 180px;
+    padding-top: 150px;
     padding-bottom: 60px; 
 }
 
@@ -48,4 +67,31 @@ a {
     display: flex;
     position: relative;
     flex-direction: row-reverse;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    margin: 20px;
+    margin-left: 250px;
+    margin-right: 250px;
+    border-radius: 30px;
+    background-color: rgb(87, 3, 3);
+    color: aliceblue;
+    width: 430px;   
+
+}
+
+.contact, .mail {
+    text-align: center;
+    border: solid 5px black;
+    background-color: rgb(16, 139, 47);
+    margin: 8px;
+}
+
+.mail {
+    width: 420px;
 }
