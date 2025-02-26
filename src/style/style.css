@@ -133,7 +133,7 @@ footer {
         margin-top: 30px;
         width: 150px;
         height: 150px;
-        border-radius: 75px 75px 75px 75px;
+        border-radius: 90px 90px 90px 90px;
         animation: 8s ease-in 1s reverse both running slidein;
     }
 
@@ -154,13 +154,13 @@ footer {
         padding-right: 40px;
         padding-bottom: 40px;
         float: right;
-        border-radius: 75px 75px 75px 75px;
+        border-radius: 90px 90px 90px 90px;
     }
 
     .img2 {
         width: 150px;
         float: left;
-        border-radius: 75px 75px 75px 75px;
+        border-radius: 90px 90px 90px 90px;
     }
 
     .presentation {
