@@ -40,7 +40,7 @@ h2 {
     text-decoration: underline;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 500px) {
 
     a {
         font-size: 10px;
