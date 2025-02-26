@@ -111,7 +111,7 @@ footer {
     border-radius: 25px 25px 25px 25px;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 500px) {
 
     a {
         font-size: 10px;
