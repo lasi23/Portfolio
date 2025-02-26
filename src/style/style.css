@@ -110,31 +110,3 @@ footer {
     margin-bottom: 50px;
     border-radius: 25px 25px 25px 25px;
 }
-
-@media screen and (max-width: 390px) {
-    .img1 {
-        width: 150px;
-        height: 150px;
-        padding-right: 30px;
-        padding-bottom: 30px;
-        float: right;
-        border-radius: 100px 100px 100px 100px;
-    }
-
-    .img2 {
-        width: 150px;
-        float: left;
-        border-radius: 75px 75px 75px 75px;
-    }
-
-    .img3 {
-        width: 80px;
-        height: auto;
-    }
-
-    footer {
-        margin-right: 20px;
-        margin-left: 20px;
-    }
-    
-}
