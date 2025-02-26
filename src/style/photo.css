@@ -1,0 +1,41 @@
+body {
+    background: linear-gradient(to bottom right, rgb(146, 5, 5), purple, rgb(82, 4, 17));
+    font-family: 'Roboto slab';
+    font-size: 30px;
+}
+
+.img {
+    width: auto;
+    height: 400px;
+    margin: 30px;
+}
+
+.titre {
+    text-align: center;
+    font-size: 50px;
+    font-family: cursive;
+    padding-top: 150px;
+    border: groove 30px burlywood;
+    padding: 20px;
+    margin: 80px 300px 0px 300px;
+  }
+  
+
+.a {
+    border: solid 5px rgb(13, 197, 13);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 30px;
+    color: aliceblue;
+    background-color: black;
+}
+
+.button {
+    display: flex;
+    position: relative;
+    flex-direction: row-reverse;
+}
+
+h2 {
+    text-decoration: underline;
+}

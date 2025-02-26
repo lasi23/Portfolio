@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(to bottom right, blue, purple, pink);
+    background: linear-gradient(to bottom right, rgb(146, 5, 5), purple, rgb(82, 4, 17));
     font-family: 'Roboto slab';
     font-size: 30px;
 }
@@ -12,6 +12,10 @@ body {
   border: groove 30px burlywood;
   padding: 20px;
   margin: 80px 300px 0px 300px;
+}
+
+h2 {
+    text-decoration: underline;
 }
 
 .profil {
@@ -42,6 +46,7 @@ h2 {
 
 .presentation {
     padding-left: 130px;
+    padding-right: 130px;
     text-align: center;
 }
 
@@ -52,6 +57,12 @@ h2 {
     padding-bottom: 80px;
     float: right;
     border-radius: 250px 250px 250px 250px;
+}
+
+.img2 {
+    width: 300px;
+    float: left;
+    border-radius: 150px 150px 150px 150px;
 }
 
 a {
@@ -69,29 +80,33 @@ a {
     flex-direction: row-reverse;
 }
 
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 20px;
-    margin: 20px;
-    margin-left: 250px;
-    margin-right: 250px;
-    border-radius: 30px;
-    background-color: rgb(87, 3, 3);
-    color: aliceblue;
-    width: 430px;   
-
+.img3 {
+    width: 130px;
+    height: auto;
+    animation: 3s linear 1s infinite running ping;
 }
 
-.contact, .mail {
+@keyframes ping {
+    from {
+        opacity: 1;
+        transform: translatex(-800px);
+    }
+    to {
+        opacity: 2;
+        transform: translatex(800px);
+    }
+    }
+
+
+footer {
     text-align: center;
-    border: solid 5px black;
-    background-color: rgb(16, 139, 47);
-    margin: 8px;
-}
-
-.mail {
-    width: 420px;
+    background-color: black;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    margin-right: 500px;
+    margin-left: 500px;
+    margin-top: 150px;
+    margin-bottom: 50px;
+    border-radius: 25px 25px 25px 25px;
 }
