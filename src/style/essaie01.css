@@ -1,0 +1,67 @@
+body {
+    font-family: Inknut Antiqua, sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    height: 234px;
+    background-color: #DBE7FF;
+}
+
+nav {
+    border: black 1px;
+    background-color: #424040;
+    height: 78px;
+    width: 100%;
+}
+
+button {
+    float: right;
+    width: 80px;
+    height: 40px;
+    border-radius: 25px;
+    border: 3px solid #424040;
+    margin-top: 10px;
+    margin-right: 10px;
+    font-size: 16px;
+    font-style: oblique;
+    font-weight: bold;
+    color: red;
+    cursor: pointer;
+}
+
+h1 {
+    display: grid;
+    place-items: center;
+    height: 156px;
+}
+
+main {
+    display: block;
+    gap: 20px;
+    padding: 20px;
+    background-color: #C1F9F6;
+}
+
+.triangle {
+    position: relative;
+    display: inline-block;
+    height : 0;
+     width : 0;
+    border-top : 300px solid transparent;
+    border-bottom : 300px solid transparent;
+    border-left : 800px solid #CBFFC7;
+}
+
+p .triangle {
+    display: block;
+}
+
+p {
+    position: absolute;
+    transform: translate(00%, -200%);
+    padding-left: 190px;
+    padding-right: 190px;
+    font-size: large;
+}
